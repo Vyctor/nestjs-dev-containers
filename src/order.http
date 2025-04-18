@@ -1,0 +1,9 @@
+### CREATE ORDER
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "orderId": "1",
+    "value": 20.00,
+    "status": "pending"
+}
